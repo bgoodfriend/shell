@@ -116,3 +116,4 @@ gitBranch() {
 
 # Build the prompt
 export PS1="${pathC}\w ${gitC}\$(gitBranch) ${pointerC}\$${normalC} "
+export PATH=$PATH:$HOME/bin
